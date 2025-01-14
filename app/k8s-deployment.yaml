@@ -16,7 +16,7 @@ spec:
     spec:
       nodeSelector:
         key: localhost
-      nodeName: da-pc-0118
+      nodeName: minio #da-pc-0118
       volumes:
       - name: storage
         hostPath:
