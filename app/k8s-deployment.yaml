@@ -55,7 +55,7 @@ metadata:
   labels:
     run: minio
 spec:
-  type: NodePort 
+  type: LoadBalancer 
   ports:
   - protocol: TCP
     port: 9000
