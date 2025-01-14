@@ -14,9 +14,9 @@ spec:
       labels:
         app: minio
     spec:
-      nodeSelector:
-        key: localhost
-      nodeName: da-pc-0118
+      ##nodeSelector:
+      ##  key: localhost
+      ##nodeName: da-pc-0118
       volumes:
       - name: storage
         hostPath:
